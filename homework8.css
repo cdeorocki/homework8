@@ -1,0 +1,164 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #FFF0F0; 
+}
+
+nav {
+/*	border: black 1px solid;*/
+	height: 200px;
+	width: 100%;
+}	
+
+nav ul {
+	/*border: red 1px solid;*/
+	width: 300px;
+	margin-left: 10px;
+}
+
+nav ul li {
+	list-style-type: none;
+	text-align: center;
+	color: #2E2E4C;
+	font-family: courier;
+	font-size: 20pt;
+	border: #2E2E4C 2px solid;
+	border-radius: 10px;
+	margin-bottom:5px;
+}
+
+li:hover {
+	color: white;
+	background-color: #2E2E4C;
+}
+
+h2 {
+	margin-left: 30px;
+	text-align: left;
+	color: #8A8AE6;
+	font-family: Georgia;
+	font-weight: 200;
+}
+
+p {
+	width:90%;
+	color: #0F0F1A;
+	text-align: left;
+	margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+	body {
+		padding: 0px;
+		margin: 0px;
+		background-color: #A3A3CC; 
+	}
+
+	nav {
+		/*border: black 1px solid;*/
+		margin-top: 25px;
+		height: 80px;
+		width: 100%;
+	}	
+
+	nav ul {
+		/*border: red 1px solid;*/
+		width: 750px;
+		height: 50px;
+		margin-left: 5px;
+	}
+
+	nav ul li {
+		float: left;
+		margin-left: 20px;
+		padding: 5px;
+		width:150px;
+		list-style-type: none;
+		text-align: center;
+		color: white;
+		font-family: courier;
+		font-size: 20pt;
+		border: white 2px solid;
+		border-radius: 10px;
+	}
+
+	li:hover {
+		color: #31313D;
+		background-color: white;
+	}
+
+	h2 {
+		margin-left: 50px;
+		text-align: left;
+		color: white;
+		font-family: Georgia;
+		font-weight: 600;
+	}
+
+	p {
+		margin-bottom: 40px;
+		width:70%;
+		color: #31313D;
+		text-align: left;
+		margin-left: 100px;
+	}	
+
+}
+
+@media (min-width: 992px) {
+		body {
+		padding: 0px;
+		margin: 0px;
+		background-color: #669999; 
+	}
+
+	nav {
+		/*border: black 1px solid;*/
+		margin-top: 25px;
+		height: 80px;
+		width: 100%;
+	}	
+
+	nav ul {
+		/*border: red 1px solid;*/
+		width: 960px;
+		height: 50px;
+		margin-left: 80px;
+	}
+
+	nav ul li {
+		float: left;
+		margin-left: 60px;
+		padding: 5px;
+		width:150px;
+		list-style-type: none;
+		text-align: center;
+		color: #293D3D;
+		font-family: courier;
+		font-size: 20pt;
+		border: #293D3D 2px solid;
+		border-radius: 10px;
+	}
+
+	li:hover {
+		color: white;
+		border: white 2px solid;
+		background-color: #669999;
+	}
+
+	h2 {
+		text-align: center;
+		color: white;
+		font-family: Georgia;
+		font-weight: bolder;
+	}
+
+	p {
+		margin-bottom: 40px;
+		width:70%;
+		color: #141F1F;
+		text-align: left;
+		margin-left: 195px;
+	}
+
+}
